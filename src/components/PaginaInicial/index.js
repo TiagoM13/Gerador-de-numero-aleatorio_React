@@ -18,7 +18,7 @@ export default function PaginaInicial() {
 
           <div className="area-botao">
                 <label>
-                    Click no botão abaixo para gerar um número aleatório:
+                    Clique no botão abaixo para gerar um número aleatório:
                 </label>
 
                 <button onClick={ gerarNumero }> 
