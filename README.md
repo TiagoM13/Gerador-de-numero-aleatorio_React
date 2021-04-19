@@ -6,9 +6,10 @@
 
 ### Ilustração da aplicação
 
-    <h1> align="center">
-        <img src="./assets/numero-aleatorio.png" alt="gerador de Números Aleatórios"> 
-    </h1>
+  <h1 align="center">
+   <img src="./assets/numero-aleatorio.png" alt="gerador de Números Aleatórios">
+  </h1>
+  
  ### Tutorial
 
  <ul>
