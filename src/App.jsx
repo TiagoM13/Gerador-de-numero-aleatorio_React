@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import PaginaInicial from './components/PaginaInicial/'
+import './App.scss';
+import PaginaInicial from './components/PaginaInicial'
 
 function App() {
   return (

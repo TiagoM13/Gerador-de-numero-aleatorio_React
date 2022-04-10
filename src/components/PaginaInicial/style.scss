@@ -1,0 +1,100 @@
+:root {
+    --white: #ffffff;
+    --violet: #9400d3; 
+    --light-violet: #8A2BE2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    
+    h3 {
+        font-size: 3rem; 
+        margin-top: 5rem;
+        margin-bottom: 3rem; 
+    }
+    
+    p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.area-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        button {
+            background: var(--light-violet);
+            color: var(--white);
+
+            font-size: 1rem;
+            font-weight: bold;
+
+            padding: 1.2rem;
+
+            border: none;
+            border-radius: 0.3rem;
+
+            transition: filter 0.2s;
+
+                &:hover {
+                    filter: brightness(0.9);
+                    cursor: pointer;
+                }
+
+        }
+    
+}
+
+
+@media (max-width: 930px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .area-button button {
+        padding: auto;
+        margin: 0.5rem auto;
+        font-size: 15px;
+    } 
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 25px;
+    } 
+
+    h3 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .area-button button {
+        padding: auto;
+        margin: 0.5rem auto;
+
+        font-size: 12px;
+    }
+}
